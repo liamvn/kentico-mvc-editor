@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NW.CKEditor5_Wysiwyg.Kentico.MVC.Views</RootNamespace>
     <AssemblyName>NW.CKEditor5_Wysiwyg.Kentico.MVC.Views</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -61,29 +61,172 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\packages\AWSSDK.S3.3.1.9.0\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="obj\Debug\" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Kentico.Content.Web.Mvc">
+    <Reference Include="CMS.Activities">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Activities.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Activities.Loggers">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Activities.Loggers.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.AmazonStorage">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.AmazonStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.AspNet.Platform">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.AspNet.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Automation">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.AzureStorage">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.AzureStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Base">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.ContactManagement">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.ContactManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.ContinuousIntegration">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.ContinuousIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Core">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.CustomTables">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.CustomTables.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.DataEngine">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.DataEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.DataProtection">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.DataProtection.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.DocumentEngine">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.DocumentEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Ecommerce">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Ecommerce.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.EmailEngine">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.EmailEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.EventLog">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.EventLog.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.FormEngine">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.FormEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Globalization">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Helpers">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.ImportExport">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.ImportExport.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.IO">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.LicenseProvider">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.LicenseProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.MacroEngine">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.MacroEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.MediaLibrary">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.MediaLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Membership">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Membership.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.MembershipProvider">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.MembershipProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Modules">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Modules.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Newsletters">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Newsletters.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.OnlineForms">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.OnlineForms.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.OnlineMarketing">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.OnlineMarketing.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Personas">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Personas.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Relationships">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Relationships.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Reporting">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Reporting.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.ResponsiveImages">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.ResponsiveImages.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Routing.Web">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Routing.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.SalesForce">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.SalesForce.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Scheduler">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Scheduler.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Search">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Search.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Search.Azure">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Search.Azure.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Search.Lucene3">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Search.Lucene3.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Search.TextExtractors">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Search.TextExtractors.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.SharePoint">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.SharePoint.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.SiteProvider">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.SiteProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.SocialMarketing">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.SocialMarketing.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Synchronization">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Synchronization.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.SynchronizationEngine">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.SynchronizationEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Taxonomy">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.Taxonomy.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.TranslationServices">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.TranslationServices.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.WebAnalytics">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.WebAnalytics.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.WebFarmSync">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.WebFarmSync.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.WorkflowEngine">
+      <HintPath>..\packages\Kentico.Xperience.Libraries.13.0.21\lib\NET48\CMS.WorkflowEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Kentico.Content.Web.Mvc, Version=13.0.13.0, Culture=neutral, PublicKeyToken=834b12a258f213f9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Kentico.Xperience.AspNet.Mvc5.Libraries.13.0.21\lib\NET48\Kentico.Content.Web.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Kentico.Content.Web.Mvc.Views">
-      <HintPath>..\packages\Kentico.Xperience.AspNet.Mvc5.13.0.21\lib\NET48\Kentico.Content.Web.Mvc.Views.dll</HintPath>
-    </Reference>
-    <Reference Include="Kentico.Membership">
-      <HintPath>..\packages\Kentico.Xperience.AspNet.Mvc5.Libraries.13.0.21\lib\NET48\Kentico.Membership.dll</HintPath>
-    </Reference>
-    <Reference Include="Kentico.OnlineMarketing.Web.Mvc">
-      <HintPath>..\packages\Kentico.Xperience.AspNet.Mvc5.Libraries.13.0.21\lib\NET48\Kentico.OnlineMarketing.Web.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="Kentico.Web.Mvc">
+    <Reference Include="Kentico.Web.Mvc, Version=13.0.13.0, Culture=neutral, PublicKeyToken=834b12a258f213f9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Kentico.Xperience.AspNet.Mvc5.Libraries.13.0.21\lib\NET48\Kentico.Web.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="Kentico.Web.Mvc.Proxies">
-      <HintPath>..\packages\Kentico.Xperience.AspNet.Mvc5.Libraries.13.0.21\lib\NET48\Kentico.Web.Mvc.Proxies.dll</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup>
@@ -117,14 +260,8 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
-    <Error Condition="!Exists('..\packages\Kentico.LanguagePack.English.12.0.29\build\Kentico.LanguagePack.English.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Kentico.LanguagePack.English.12.0.29\build\Kentico.LanguagePack.English.targets'))" />
-    <Error Condition="!Exists('..\packages\Kentico.AspNet.Mvc.12.0.29\build\Kentico.AspNet.Mvc.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Kentico.AspNet.Mvc.12.0.29\build\Kentico.AspNet.Mvc.targets'))" />
-    <Error Condition="!Exists('..\packages\ILRepack.2.0.17\build\ILRepack.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ILRepack.2.0.17\build\ILRepack.props'))" />
   </Target>
-  <Import Project="..\packages\Kentico.LanguagePack.English.12.0.29\build\Kentico.LanguagePack.English.targets" Condition="Exists('..\packages\Kentico.LanguagePack.English.12.0.29\build\Kentico.LanguagePack.English.targets')" />
-  <Import Project="..\packages\Kentico.AspNet.Mvc.12.0.29\build\Kentico.AspNet.Mvc.targets" Condition="Exists('..\packages\Kentico.AspNet.Mvc.12.0.29\build\Kentico.AspNet.Mvc.targets')" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
